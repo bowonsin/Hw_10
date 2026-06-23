@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "ModuleAndPlugin.h"
+#include "Test.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, ModuleAndPlugin, "ModuleAndPlugin" );
+IMPLEMENT_MODULE(FDefaultModuleImpl, Test);
  
